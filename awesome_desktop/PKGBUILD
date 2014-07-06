@@ -1,0 +1,23 @@
+# Maintainer: miggy <jkomdl at gmail dot com>
+
+pkgname=awesomestart
+pkgver=1
+pkgrel=1
+pkgdesc="My desktopfile to start awesome"
+arch=('x86_64 i686')
+url="http://mcmc-jags.sourceforge.net/"
+license=('GPL')
+depends=('awesome')
+options=('')
+makedepends=('')
+source=("awesomestart.desktop")
+md5sums=('14472beecd94b15df66617bfcfd13839')
+
+package() {
+    mkdir -p $pkgdir/usr/share/xsessions/
+    cp awesomestart.desktop $pkgdir/usr/share/xsessions/
+}
+
+
+
+

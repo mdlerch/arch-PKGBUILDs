@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=awes
+Comment=Highly configurable framework window manager
+TryExec=/home/mike/bin/awesome-start
+Exec=/home/mike/bin/awesome-start
+Type=Application
